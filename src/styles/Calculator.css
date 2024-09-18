@@ -1,0 +1,115 @@
+.calculator-container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .calculator-display-innner {
+    background-color: #ffffff;
+    padding: 15px;
+    width: 100%;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #333;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .history-memory-panel-sec {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .history-main, .memory-badge {
+    width: 48%;
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .history-main h4, .memory-badge h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .history-item-main, .memory-value-main {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .no-history-content {
+    color: #999;
+    font-style: italic;
+  }
+  
+  .clear-history-btn-center {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .clear-history-btn-center:hover {
+    background-color: #d32f2f;
+  }
+  
+  .calculatorapp-buttons {
+    width: 100%;
+  }
+  
+  .memoryleft-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .memoryleft-buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .memoryleft-buttons button:hover {
+    background-color: #ccc;
+  }
+  
+  .button-grid-main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .calc-btn-center {
+    padding: 20px;
+    font-size: 1.5rem;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .calc-btn-center:hover {
+    background-color: #ddd;
+  }
+  
+  .calc-btn-center:active {
+    background-color: #ccc;
+  }
+  
